@@ -1,7 +1,7 @@
 # Shop
 
 Se ha hecho un desarrollo que debería servir de muestra, puesto que debía realizarse en pocas horas según la descripción.
-No se han aboradado los estilos ni los test unitarios y el formato es el más sendcillo, a modo de muestra.
+No se han aboradado los estilos ni los test unitarios y el formato es el más sencillo, a modo de muestra.
 Por otro lado el POST de los datos me daba un error de parámetros incorrectos, pero creo que son los que se describe en la documentación. Ya que no he recibido respuesta al problema se actualiza el estado en caso de error a modo de ejemplo.
 
 # Getting Started with Create React App
