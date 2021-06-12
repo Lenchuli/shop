@@ -4,80 +4,13 @@
   height: 50px;
 }
 
-.header__first,
-.header__movies,
-.header__series {
+.header__first {
   display: inline-block;
   margin: auto 20px;
-}
-
-.header__movie-icon,
-.header__serie-icon,
-.header__filter-icon {
-  vertical-align: middle;
-}
-
-.header__second {
-  justify-self: end;
-  display: grid;
-  grid-template-columns: 1fr 1fr max-content;
-  margin-left: auto;
-}
-
-.header__login {
-  border-left: solid white 1px;
-  border-right: solid white 1px;
-  padding: 0 10px;
-}
-
-.header__trial {
-  background-color: red;
-  border-radius: 50px;
-  margin: 15px;
-  border: none;
+  cursor: pointer;
 }
 
 .header__logo {
   height: 35px;
-  width: auto;
-}
-
-.header__movie-text,
-.header__serie-text,
-.header__filter-text {
-  margin-left: 5px;
-  display: inline-block;
-  height: 100%;
-  vertical-align: sub;
-}
-
-.header__login,
-.header__filter {
-  margin: auto;
-}
-
-.header__login,
-.header__filter,
-.header__trial,
-.header__movies,
-.header__series {
-  cursor: pointer;
-}
-
-.header__movies,
-.header__series,
-.header__filter {
-  height: 100%;
-  padding: 0 5px;
-
-  &--active {
-    background-color: red;
-  }
-}
-
-.header__movie-icon,
-.header__serie-icon,
-.header__filter-icon {
-  height: 31px;
   width: auto;
 }
