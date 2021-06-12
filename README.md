@@ -2,7 +2,7 @@
 
 Se ha hecho un desarrollo que debería servir de muestra, puesto que debía realizarse en pocas horas según la descripción.
 No se han aboradado los estilos ni los test unitarios y el formato es el más sendcillo, a modo de muestra.
-Por otro lado el POST de los datos me daba un error de parámetros incorrectos, pero creo que son los que se describe en la documentación. Ya que no he recibido respuesta al problema se actuliza el estab en caso de error a modo de ejemplo.
+Por otro lado el POST de los datos me daba un error de parámetros incorrectos, pero creo que son los que se describe en la documentación. Ya que no he recibido respuesta al problema se actualiza el estado en caso de error a modo de ejemplo.
 
 # Getting Started with Create React App
 
@@ -44,7 +44,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-
-
-
