@@ -30,6 +30,8 @@ export function Info({ info, updateCart }) {
       updateCart(data);
     } else {
       console.log("Bad request");
+      // Uptade cart just to show it's changing.
+      // Body seems to be incorrect.
       updateCart(3);
     }
   }

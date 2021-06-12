@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Header } from "../components/header";
 import { Grid } from "../components/grid";
 
-export function Catalog() {
+export function Catalog({ cart }) {
   const [catalog, setCatalog] = useState([]);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export function Catalog() {
 
   return (
     <>
-      <Header />
+      <Header cart={cart} />
       <Grid catalog={catalog} />
     </>
   );

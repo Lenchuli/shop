@@ -4,9 +4,8 @@ import { Placard } from "../components/placard";
 import { Info } from "../components/info";
 import "./detail.scss";
 
-export function Detail() {
+export function Detail({ cart, setCart }) {
   const [info, setInfo] = useState({});
-  const [cart, setCart] = useState(0);
 
   useEffect(() => {
     try {

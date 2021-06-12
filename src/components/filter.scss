@@ -1,0 +1,21 @@
+@import "carbon-components/scss/components/search/_search.scss";
+
+.filter-wrapper {
+  width: 500px;
+}
+
+.filter-wrapper__button {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #f4f4f4;
+
+  button {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    margin: auto;
+    cursor: pointer;
+  }
+}
